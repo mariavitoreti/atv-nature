@@ -1,0 +1,137 @@
+/*=======================================================
+                       GERAL
+========================================================*/
+html {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: calc(15px + 0.390625vw);
+}
+
+a {
+   text-decoration: none;
+   color: white;
+}
+
+/*======================================================
+                     HEADER
+ ======================================================*/
+header {
+   background-color: #3b8686;
+   padding: 20px 10vw 20px 10vw;
+}
+
+header nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+header nav ul {
+   display: flex;
+}
+
+header nav ul li {
+   margin: 0 5vw 0 0;
+}
+
+header nav ul li a.atual {
+   background-color: rgba(255, 255, 255, 0.2);
+   border-radius: 30px;
+   padding: 5px 15px 5px 15px;
+}
+
+section.banner {
+   padding: 15vw 10vw;
+   background: linear-gradient(rgba(121, 189, 154, 0.2), rgba(121, 189, 154, 0.2)), url(../images/back-banner.png) no-repeat center center;
+   background-size: 100% auto;
+   background-size: cover;
+}
+
+section.banner h2 {
+   font-size: 3rem;
+   color: #FFFFFF;
+   background-color: rgba(59, 134, 134, 0.5);
+   width: 40%;
+}
+
+/*=============================================================
+                            SERVIÇO
+=============================================================*/
+section.servico {
+   padding: 7vw 10vw 7vw 10vw;
+}
+
+section.servico ul {
+   display: flex;
+   justify-content: space-between;
+}
+
+section.servico ul li {
+   text-align: center;
+   width: 25%;
+}
+
+section.servico ul li span {
+   color: #3b8686;
+   font-size: 3.5rem;
+   margin: 0 0 1vw 0;
+}
+
+section.servico ul li h3 {
+   font-weight: bold;
+   font-size: 1.3rem;
+   margin: 1vw 0 1.5vw 0;
+}
+
+section.servico ul li p {
+   color: #747474;
+   line-height: 1.2rem;
+}
+
+section.servico ul li p.botao {
+   margin: 3vw 0 0 0;
+}
+
+section.servico ul li p.botao a {
+   background-color: #3b8686;
+   padding: 15px 25px 15px 25px;
+}
+
+
+/*=============================================================
+                            INFORMAÇÕES
+=============================================================*/
+section.informacoes {
+    padding: 4vw 9vw 2vw 9vw;
+    background: linear-gradient(rgba(121, 189, 154, 0.2),rgba(121, 189, 154, 0.2)), url(../src/images/back-numeros.png) no-repeat center center;
+    background-size: cover;
+}
+section.informacoes ul {
+    display: flex;
+    justify-content: space-between;
+}
+section.informacoes ul li{
+    text-align: center;
+    margin: 0  2vw;
+}
+section.informacoes ul li span{
+    color: white;
+    font-size: 3.45rem;
+
+}
+section.informacoes ul li p {
+    color: white;
+    font-size: 2.3rem;
+    margin: 1vw 0;
+    font-weight: 600;
+}
+/*=============================================================
+                        ATIVIDADES
+=============================================================*/
+section.atividades {
+    padding: 9vw;
+    display: flex;
+}
+section.atividades h2 {
+    font-size: 2rem;
+    color: #0B486B;   
+}
