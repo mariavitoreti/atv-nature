@@ -102,7 +102,7 @@ section.servico ul li p.botao a {
 =============================================================*/
 section.informacoes {
     padding: 4vw 9vw 2vw 9vw;
-    background: linear-gradient(rgba(121, 189, 154, 0.2),rgba(121, 189, 154, 0.2)), url(../src/images/back-numeros.png) no-repeat center center;
+    background: linear-gradient(rgba(121, 189, 154, 0.2),rgba(121, 189, 154, 0.2)), url(../images/back-numeros.png) no-repeat center center;
     background-size: cover;
 }
 section.informacoes ul {
